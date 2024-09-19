@@ -47,5 +47,5 @@ def intersection(set_a, set_b):
 
     return set_ab
 
-inter_set = intersection([1, 1, 1], [2])
-print(inter_set)
+#inter_set = intersection([1, 1, 1], [2])
+#print(inter_set)
