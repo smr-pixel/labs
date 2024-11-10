@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Astronomy Picture of the Day</title>
+</head>
+<body>
+    <h1>Astronomy Picture of the Day</h1>
+    <p>Date: {{ apod['date'] }}</p>
+    <img src="{{ apod['url'] }}" alt="Astronomy Picture of the Day">
+    <p><strong>Description:</strong> {{ apod['explanation'] }}</p>
+    <p><strong>Copyright:</strong> {{ apod['copyright'] if 'copyright' in apod else 'None' }}</p>
+    <br>
+    <a href="/history">View History Page</a>
+</body>
+</html>
