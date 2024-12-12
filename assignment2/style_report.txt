@@ -1,0 +1,25 @@
+The total number of lines of code is: 73
+Import: ast
+Classes: No classes found.
+
+Functions: parse_file, file_structure, imports, classes, functions, type_annotations, naming_conventions, write_report, analyze_file
+parse_file: DocString not found.
+
+file_structure: DocString not found.
+
+imports: DocString not found.
+
+classes: DocString not found.
+
+functions: DocString not found.
+
+type_annotations: DocString not found.
+
+naming_conventions: DocString not found.
+
+write_report: DocString not found.
+
+analyze_file: DocString not found.
+The functions without any type annotations are: parse_file, file_structure, imports, classes, functions, type_annotations, naming_conventions, write_report, analyze_file
+All classes adhere to naming conventions.
+All functions adhere to naming conventions.
